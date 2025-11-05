@@ -1,0 +1,33 @@
+body{
+    background-color: Black;
+    line-break: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: lightgoldenrodyellow;
+    margin-left: 2.54cm;
+    margin-right: 2.54cm;
+}
+
+header{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: gold;
+    margin-bottom: 0.5cm;
+}
+h1{
+    font-family: 'Dancing Script', serif;
+    font-size: 60px;
+    text-shadow: 0px 0px 50px lightgoldenrodyellow;
+}
+h2{
+    font-size: 50px;
+    color: goldenrod;
+    margin-bottom: 0.1cm;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Dancing Script', serif;
+    margin-top: 0.1cm;
+    color: goldenrod;
+}
