@@ -1,33 +1,98 @@
 body{
-    background-color: Black;
+    background-color: black;
     line-break: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: justify;
-    color: lightgoldenrodyellow;
-    margin-left: 2.54cm;
-    margin-right: 2.54cm;
+    line-height: 1.5;
+}
+        
+header {
+    background-color: lightgoldenrodyellow; /* Aplica un color de fondo azul al encabezado */
+    padding: 15px 20px; /* Añade espacio interno (padding) alrededor del contenido del encabezado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil debajo del encabezado para dar un efecto de profundidad */
+    display: flex; /* Usa Flexbox para organizar los elementos hijos en una fila */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos hijos, empujándolos a los extremos */
+    align-items: center; /* Alinea verticalmente los elementos en el centro del contenedor */
+}
+.logoHeader img{
+    display: flex; /* Usa Flexbox para organizar el logo y el título en una fila */
+    max-width: 300px; /* Limita el ancho máximo del logo a 300px */
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción al ajustarse al tamaño */
+    border-radius: 5px; /* Añade un borde redondeado al logo */
+}
+header nav ul {
+    display: flex; /* Usa Flexbox para organizar los elementos de la lista en una fila */
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0 5px; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el padding predeterminado */
+    color: black;
 }
 
-header{
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    color: gold;
-    margin-bottom: 0.5cm;
+header nav ul li a{
+    margin: 0 15px; /* Añade espacio entre los elementos de la lista */
+    color: black; /* Establece el color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
 }
+
+header nav ul li:hover a {
+    background-color: gold;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
 h1{
-    font-family: 'Dancing Script', serif;
-    font-size: 60px;
-    text-shadow: 0px 0px 50px lightgoldenrodyellow;
+    font-size: 55px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    text-shadow: 0px 0px 20px lightgoldenrodyellow;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}h2,h3,h4,h5,h6{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px white;
 }
-h2{
-    font-size: 50px;
-    color: goldenrod;
-    margin-bottom: 0.1cm;
+
+p{
+    text-align: justify;
+    color: white;
+    line-height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
 }
-h3{
-    font-size: 30px;
-    font-family: 'Dancing Script', serif;
-    margin-top: 0.1cm;
-    color: goldenrod;
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.divisor{
+    background: linear-gradient(90deg,black,gold,black);
+    padding: 5px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    align-items: center;
+}.divisor p{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: gray;
 }
