@@ -125,6 +125,24 @@ img{
     text-align: center;
 }
 
+.mision p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+.mision footer{
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 15;
+    width: 100%;
+    font-size: 14px;
+    color: #808080;
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
