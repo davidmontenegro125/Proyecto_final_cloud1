@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 body{
     background-color: black;
@@ -15,30 +16,26 @@ body {
   color: #fff;
   line-height: 1.7;
 >>>>>>> Stashed changes
-}
-        
-header {
-    background-color: lightgoldenrodyellow; /* Aplica un color de fondo azul al encabezado */
-    padding: 15px 20px; /* Añade espacio interno (padding) alrededor del contenido del encabezado */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil debajo del encabezado para dar un efecto de profundidad */
-    display: flex; /* Usa Flexbox para organizar los elementos hijos en una fila */
-    justify-content: space-between; /* Distribuye el espacio entre los elementos hijos, empujándolos a los extremos */
-    align-items: center; /* Alinea verticalmente los elementos en el centro del contenedor */
-}
-.logoHeader img{
-    display: flex; /* Usa Flexbox para organizar el logo y el título en una fila */
-    max-width: 300px; /* Limita el ancho máximo del logo a 300px */
-    object-fit: cover; /* Asegura que la imagen mantenga su proporción al ajustarse al tamaño */
-    border-radius: 5px; /* Añade un borde redondeado al logo */
-}
-header nav ul {
-    display: flex; /* Usa Flexbox para organizar los elementos de la lista en una fila */
-    list-style-type: none; /* Elimina los puntos de la lista */
-    margin: 0 5px; /* Elimina el margen predeterminado */
-    padding: 0; /* Elimina el padding predeterminado */
-    color: black;
+=======
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.7;
+>>>>>>> fa6eec4dbebcf887abdadd6eba71f65b913b8bac
 }
 
+header {
+  background-color: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  border-bottom: 2px solid #222;
+}
+
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 header nav ul li a{
     margin: 0 15px; /* Añade espacio entre los elementos de la lista */
@@ -60,6 +57,12 @@ header nav ul li:hover a {
   margin-left: 2px;
 }
 
+=======
+.logoHeader img {
+  height: 60px;
+}
+
+>>>>>>> fa6eec4dbebcf887abdadd6eba71f65b913b8bac
 nav ul {
   list-style: none;
   display: flex;
@@ -72,6 +75,7 @@ nav ul li a {
   font-weight: bold;
   transition: color 0.3s;
 }
+<<<<<<< HEAD
 nav ul li a.active {
   color: gold;
   text-shadow: 0 0 8px #f1f1f1;
@@ -80,6 +84,13 @@ nav ul li a:hover {
   color: #fff;
   text-shadow: 0 0 8px #f1f1f1;
 >>>>>>> Stashed changes
+=======
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #fff;
+  text-shadow: 0 0 8px #f1f1f1;
+>>>>>>> fa6eec4dbebcf887abdadd6eba71f65b913b8bac
 }
 
 h1{
@@ -125,6 +136,7 @@ img{
     text-align: center;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 .centrado p{
@@ -132,6 +144,26 @@ img{
 }
 
 >>>>>>> Stashed changes
+=======
+.mision p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 25px;
+    text-align: justify;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+.mision footer{
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 15;
+    width: 100%;
+    font-size: 14px;
+    color: #808080;
+}
+
+>>>>>>> fa6eec4dbebcf887abdadd6eba71f65b913b8bac
 footer {
     text-align: center;
     padding: 10px 0;
