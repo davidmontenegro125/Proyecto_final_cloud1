@@ -38,50 +38,6 @@ nav ul li a.active {
   text-shadow: 0 0 8px #f1f1f1;
 }
 
-.vision-section {
-  max-width: 900px;
-  margin: 60px auto;
-  text-align: center;
-  padding: 20px;
-  background: linear-gradient(to bottom, #000 0%, #0a0a0a 100%);
-  border-radius: 15px;
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
-}
-
-.vision-section h1 {
-  font-size: 3em;
-  text-shadow: 0 0 12px #fff;
-  margin-bottom: 30px;
-  letter-spacing: 3px;
-}
-
-.vision-section p {
-  margin: 20px 0;
-  font-size: 1.2em;
-}
-
-.vision-section strong {
-  color: #fff;
-  text-shadow: 0 0 8px #fff;
-}
-
-.vision-image {
-  margin-top: 40px;
-}
-
-.vision-image img {
-  width: 70%;
-  max-width: 600px;
-  border-radius: 12px;
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.vision-image img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 35px rgba(255, 255, 255, 0.3);
-}
-
 h1{
     font-size: 55px;
     text-align: center;
